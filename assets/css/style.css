@@ -7,6 +7,7 @@
     margin:0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -17,13 +18,120 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: black
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: whitesmoke;
 }
 
 .hidden-heading {
     display: none;
+}
+/* header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: solid 1px #3a3a3a;
+}
+
+/* nav bar style with drop down menu */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* main content */
+main {
+    /* Make main (enlarge) element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 60px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* text for main */
+
+.hero-image {
+    width:50vw;
+}
+
+.gradient-1 {
+    /* gradiant for hero box */
+    height: 600px;
+    width:50vw;
+    background-color: #064159; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#064159, #1b8a6b);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
 }
