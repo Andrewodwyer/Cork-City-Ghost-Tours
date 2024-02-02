@@ -116,6 +116,8 @@ display: block;
 }
 
 .center-text {
+    padding: 10%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-self:center;
