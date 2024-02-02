@@ -10,11 +10,6 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* generic project style */
-    color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,13 +17,12 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black
 }
 
 h2, h3 {
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    color: whitesmoke;
+    letter-spacing: 5px;
+    line-height: 3rem;
 }
 
 .hidden-heading {
@@ -91,35 +85,37 @@ nav {
     font-size: 2rem;
 }
 
-/* main content */
-main {
-    /* Make main (enlarge) element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 60px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
-
 /* text for main */
 
-.hero-image {
-    width:50vw;
+
+
+.center-text {
+    justify-content: center;
+    color: whitesmoke;
 }
 
-.gradient-1 {
-    /* gradiant for hero box */
-    height: 600px;
-    width:50vw;
-    background-color: #064159; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#064159, #1b8a6b);
-  }
-
-  .container {
+.container {
     display: flex;
-    align-items: center;
-  }
+}
+
+.left-div {
+    flex: 1;
+}
+
+.right-div {
+flex: 1;
+background-color: #064159; /* For browsers that do not support gradients */
+background-image: linear-gradient(#064159, #076576);
+}
+
+/* to keep the image from taking up more then 50% of the screen */
+.restrain-image {
+max-width: 100%;
+display: flex;
+
+height: auto;
+display: block;
+}
 
 /* footer */
 #social-networks {
