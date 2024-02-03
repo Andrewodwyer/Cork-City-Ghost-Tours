@@ -35,7 +35,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a ;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -54,10 +54,6 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: solid 1px #3a3a3a;
 }
 
 /* nav bar style with drop down menu */
@@ -113,12 +109,31 @@ height: auto;
 display: block;
 }
 
+.rounded-image {
+    border: 2px solid #333; /* Border color */
+    border-radius: 10px; /* Border radius for rounded corners */
+    overflow: hidden; /* Ensure border-radius clips the image properly */
+}
+
+.image-margin {
+    margin: 5vw;
+    }
+
 .center-text {
     padding: 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-self:center;
+}
+
+/* Our Tour Section */
+#our-tours {
+    background-color: #CAE0DF;
+    border: solid 1px #3a3a3a;
+    border-radius: 5px;
+    box-shadow: 0 6px 4px gray;
+    margin: 2rem;
 }
 
 /* footer */
