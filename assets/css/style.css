@@ -87,13 +87,6 @@ nav {
 
 /* text for main */
 
-
-
-.center-text {
-    justify-content: center;
-    color: whitesmoke;
-}
-
 .container {
     display: flex;
 }
@@ -103,9 +96,14 @@ nav {
 }
 
 .right-div {
-flex: 1;
-background-color: #064159; /* For browsers that do not support gradients */
-background-image: linear-gradient(#064159, #076576);
+    color: whitesmoke;
+    display: flex;
+    flex: 1;
+    background-color: #064159; /* For browsers that do not support gradients */
+}
+
+.gradient-top-down {
+    background-image: linear-gradient(#064159, #076576);
 }
 
 /* to keep the image from taking up more then 50% of the screen */
