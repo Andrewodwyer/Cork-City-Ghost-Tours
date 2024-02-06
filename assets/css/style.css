@@ -96,35 +96,6 @@ nav {
     background-image: linear-gradient(#064159, #076576);
     color:whitesmoke;
 }
-/*map section with gradient*/
-#map-gradient {
-    background-image: linear-gradient(#076576, #064159);
-    color:whitesmoke;
-    padding: 20px;
-    text-align: center;
-}
-
-.text-container {
-    margin: 20px;
-  }
-
-.text-container h2 {
-    margin: 0;
-    font-size: 24px;
-  }
-
-.map-container {
-    max-width: 100%;
-    margin: auto;
-  }
-
-.map-container img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-    align-self: center;
-    margin: 5vw;
-  }  
 
 
 /* to keep the image from taking up more then 50% of the screen */
@@ -169,6 +140,79 @@ display: block;
     box-shadow: 0 6px 4px gray;
     margin: 2rem;
 }
+
+/*map section with gradient*/
+#map-gradient {
+    background-image: linear-gradient(#076576, #064159);
+    color:whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-container {
+    margin: 20px;
+  }
+
+.text-container h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+.map-container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+.map-container img {
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+    margin: 5vw;
+  }  
+
+ /* Container for contact section */
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #CAE0DF;
+  }
+  
+  /* Left area with picture */
+.left-area {
+    flex: 1;
+  }
+
+  .left-area img {
+    flex: 1;
+    max-width: 45vw;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  
+  /* Right area with text and button */
+.right-area {
+    flex: 1;
+    text-align: centre;
+    padding-left: 1rem;
+  }
+
+  /* Button styles */
+  .contact-section .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-section .btn:hover {
+    background-color: #0056b3;
+  }
 
 /* footer */
 #social-networks {
