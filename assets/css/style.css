@@ -97,7 +97,7 @@ nav {
 .right-div {
     display: flex;
     flex: 1;
-   /* background: #064159; For browsers that do not support gradients */
+    min-height: 260px;
 }
 /*gradient for hero text*/
 .gradient-top-down-white-text {
