@@ -16,13 +16,12 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 h2, h3 {
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 5px;
-    line-height: 3rem;
+    letter-spacing: 1px;
 }
 
 .hidden-heading {
@@ -83,23 +82,19 @@ nav {
 
 /* text for main */
 
-.container {
-    display: flex;
-}
-
 .left-div {
     flex: 1;
 }
 
 .right-div {
-    color: whitesmoke;
     display: flex;
     flex: 1;
-    background-color: #064159; /* For browsers that do not support gradients */
+   /* background: #064159; For browsers that do not support gradients */
 }
 
-.gradient-top-down {
+.gradient-top-down-white-text {
     background-image: linear-gradient(#064159, #076576);
+    color:whitesmoke;
 }
 
 /* to keep the image from taking up more then 50% of the screen */
@@ -129,7 +124,16 @@ display: block;
 
 /* Our Tour Section */
 #our-tours {
-    background-color: #CAE0DF;
+    background: #CAE0DF;
+    border: solid 1px #3a3a3a;
+    border-radius: 5px;
+    box-shadow: 0 6px 4px gray;
+    margin: 2rem;
+}
+
+/* Meet our Guides */
+#our-guides {
+    background: #e3e3dc;
     border: solid 1px #3a3a3a;
     border-radius: 5px;
     box-shadow: 0 6px 4px gray;
@@ -150,3 +154,26 @@ display: block;
     padding: 5%;
     color: #3a3a3a
 }
+
+hero-2 {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Flexbox layout for small screens */
+  .image-and-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Media query for larger screens */
+  @media screen and (min-width: 768px) {
+    .image-and-text {
+      flex-direction: row;
+    }
+    .hero-2 {
+      flex: 1;
+    }
+  }
