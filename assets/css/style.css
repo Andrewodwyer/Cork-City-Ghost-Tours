@@ -258,6 +258,9 @@ hero-2 {
 
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
+  #our-tours {
+    order: -1;
+  }
   .image-and-text {
     flex-direction: row;
 }
