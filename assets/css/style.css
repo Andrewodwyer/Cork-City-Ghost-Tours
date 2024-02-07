@@ -117,6 +117,8 @@ main {
 
 /* text for main */
 
+/*hero image and main text section*/
+
 .left-image-on-card {
     flex: 1;
 }
@@ -132,7 +134,6 @@ main {
     color:whitesmoke;
 }
 
-
 /* to keep the image from taking up more then 50% of the screen */
 .restrain-image {
 max-width: 100%;
@@ -145,10 +146,6 @@ display: block;
     overflow: hidden; /* Ensure border-radius clips the image properly */
 }
 
-.image-margin {
-    margin: 5vw;
-    }
-
 .center-text {
     padding: 10%;
     text-align: center;
@@ -156,7 +153,6 @@ display: block;
     flex-direction: column;
     align-self:center;
 }
-
 
 /* Our Tour Section */
 #our-tours {
@@ -277,6 +273,14 @@ display: block;
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a
+}
+
+.background-map {
+  background-color: #1B8A6B;
+  background-image:url(/assets/images/18th_century_cork_city_map.jpeg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
 }
 
 
