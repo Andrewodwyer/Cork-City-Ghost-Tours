@@ -11,8 +11,8 @@
 /* General styles */
 body {
   min-height: 100vh;
-  display:flex;
-  flex-direction: column;
+  /*display:flex;
+  flex-direction: column;*/
   /* Generic project style*/
   font-family: 'Roboto', sans-serif;
 }
@@ -34,6 +34,11 @@ h4 {
   margin-left: 1rem;
   margin-top: 2rem;
   text-transform: uppercase;
+}
+
+p {
+  font-family: 'Roboto 100', sans-serif;
+  font-size: smaller;
 }
 
 .hidden-heading {
@@ -97,7 +102,6 @@ nav {
 }
 
 /* logo */
-
 #logo {
   font-size: 150%;
   line-height: 75px;
@@ -115,7 +119,6 @@ main {
 
 .left-image-on-card {
     flex: 1;
-    min-height: 50%;
 }
 
 .right-text-on-card {
@@ -149,8 +152,8 @@ display: block;
 .center-text {
     padding: 10%;
     text-align: center;
-    /*display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     align-self:center;
 }
 
@@ -168,6 +171,7 @@ display: block;
 #guide-section {
   display: flex;
   flex-wrap: wrap;
+  min-height: 260px;
 }
 
 /* Meet our Guides */
@@ -278,7 +282,7 @@ display: block;
 
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 768px) {
-
+  /* menu changes to links instead of burgermenu at 768px */
   nav {
     display: block;
     position: relative;
@@ -296,22 +300,26 @@ display: block;
   #menu > li {
     padding-left: 1rem;
   }  
-  tour-section {
-    flex-wrap: wrap;
-    /*flex-direction: column;*/
-    }
-  #our-tours {
-    flex: 2;
-    }
+
   #our-guides {
     flex: 1;
     }
-  /*.image-and-text {
-    flex-direction: row; */
-    }
-  .hero-2 {
-    flex: 1;
-    }
-    /* menu changes to links instead of burgermenu at 768px */
 
+  .image-and-text {
+    display: flex;
+    flex-direction: row;
+    }
+
+  .restrain-image {
+    display:flex;
+    height: 100%;
+    object-fit: cover;
+  }  
+    
+/*Larger devices (992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+      border-bottom: 1px solid #3a3a3a;
+    }
+  }
 }
