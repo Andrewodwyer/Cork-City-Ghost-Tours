@@ -100,13 +100,13 @@ nav {
 
 .left-div {
     flex: 1;
-    min-height: 260px
+    min-height: 50%;
 }
 
 .right-div {
     display: flex;
     flex: 1;
-    min-height: 50%;
+    min-height: 260px;
 }
 /*gradient for hero text*/
 .gradient-top-down-white-text {
@@ -118,7 +118,6 @@ nav {
 /* to keep the image from taking up more then 50% of the screen */
 .restrain-image {
 max-width: 100%;
-height: auto;
 display: block;
 }
 
