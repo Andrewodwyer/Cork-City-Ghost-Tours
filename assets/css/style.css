@@ -24,6 +24,14 @@ h2, h3 {
     letter-spacing: 1px;
 }
 
+h4 {
+  font-family: 'Roboto 100', sans-serif;
+  letter-spacing: 1px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
 .hidden-heading {
     display: none;
 }
@@ -92,12 +100,13 @@ nav {
 
 .left-div {
     flex: 1;
+    min-height: 260px
 }
 
 .right-div {
     display: flex;
     flex: 1;
-    min-height: 260px;
+    min-height: 50%;
 }
 /*gradient for hero text*/
 .gradient-top-down-white-text {
@@ -131,10 +140,6 @@ display: block;
     align-self:center;
 }
 
-#guide-section {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 /* Our Tour Section */
 #our-tours {
@@ -143,6 +148,12 @@ display: block;
     border-radius: 5px;
     box-shadow: 0 6px 4px gray;
     margin: 1rem;
+}
+
+/* container holding the our-guides cards*/
+#guide-section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Meet our Guides */
