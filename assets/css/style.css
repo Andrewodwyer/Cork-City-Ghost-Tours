@@ -131,10 +131,9 @@ display: block;
     align-self:center;
 }
 
-#tour-section {
+#guide-section {
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem;
 }
 
 /* Our Tour Section */
@@ -153,6 +152,7 @@ display: block;
     border-radius: 5px;
     box-shadow: 0 6px 4px gray;
     margin: 1rem;
+    transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
 }
 
 /*map section with gradient*/
