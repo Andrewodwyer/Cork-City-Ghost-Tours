@@ -98,12 +98,12 @@ nav {
 
 /* text for main */
 
-.left-div {
+.left-image-on-card {
     flex: 1;
     min-height: 50%;
 }
 
-.right-div {
+.right-text-on-card {
     display: flex;
     flex: 1;
     min-height: 260px;
