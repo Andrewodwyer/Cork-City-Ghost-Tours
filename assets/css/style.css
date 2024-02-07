@@ -46,7 +46,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    /*box-shadow: 0 2px 2px #3a3a3a;*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -67,16 +67,20 @@ header a {
     margin-bottom: 1em;
 }
 
+.active {
+  border-bottom: 1px solid #252525;
+}
+
 /* nav bar style with drop down menu */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255, 0.8);
     width: 100%;
-    left: 0;
+    right: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%
+    top: 100%;
+    text-align: right;
 }
 
 /* nav toggle */
@@ -104,6 +108,7 @@ nav {
 /* main section takes up all extra space and pushes the footer down*/ 
 main {
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /* text for main */
@@ -271,31 +276,8 @@ display: block;
 }
 
 
-/* Media query for larger screens */
+/* Media query for tablets and larger screens */
 @media screen and (min-width: 768px) {
-  tour-section {
-    flex-wrap: wrap;
-    /*flex-direction: column;*/
-  }
-  #our-tours {
-    flex: 2;
-  }
-  #our-guides {
-    flex: 1;
-  }
-  /*.image-and-text {
-    flex-direction: row; */
-}
-  .hero-2 {
-    flex: 1;
-}
-    /* menu changes to links instead of burgermenu at 768px */
-  #menu {
-    display: flex;
-}
-  #menu > li {
-  padding-left: 1rem;
-}
 
   nav {
     display: block;
@@ -303,8 +285,33 @@ display: block;
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
-}
+    }
   .nav-toggle-label {
     display: none;
-}
+    }
+
+  #menu {
+    display: flex;
+  }
+  #menu > li {
+    padding-left: 1rem;
+  }  
+  tour-section {
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    }
+  #our-tours {
+    flex: 2;
+    }
+  #our-guides {
+    flex: 1;
+    }
+  /*.image-and-text {
+    flex-direction: row; */
+    }
+  .hero-2 {
+    flex: 1;
+    }
+    /* menu changes to links instead of burgermenu at 768px */
+
 }
