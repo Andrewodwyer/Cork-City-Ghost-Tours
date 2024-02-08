@@ -258,7 +258,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   /* Button styles */
   .contact-btn {
     padding: 10px 20px;
-    margin-top: 10 rem;
+    margin-top: 4rem;
     background-color: #1B8A6B;
     color: #fff;
     border: none;
@@ -277,7 +277,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
 /* footer */
 /* thinking of idea for large screen footer
 #logo-social {
-  
+
 } */
 #social-networks {
     text-align: center;
