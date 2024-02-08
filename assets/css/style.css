@@ -113,8 +113,6 @@ nav {
     font-size: 2rem;
 }
 
-/* logo */
-
 /*#logo {
   font-size: 120%;
   line-height: 50px;
@@ -124,7 +122,7 @@ nav {
 /*main*/
 /* main section takes up all extra space and pushes the footer down*/ 
 main {
-  background-color: #CAE0DF;
+  background-color: whitesmoke;
   flex: 1 0 auto;
   margin-top: 37px;
 }
@@ -315,13 +313,15 @@ display: block;
 
   #menu {
     display: flex;
+    font-size: 100%;
   }
   #menu > li {
-    padding-left: 1rem;
+    padding-left: 2rem;
   }  
 
   #logo {
     font-size: 200%;
+    line-height: 5px;
   }
 
   #our-guides {
@@ -338,11 +338,32 @@ display: block;
     height: 100%;
     object-fit: cover;
   }  
+}  
     
 /*Larger devices (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
       border-bottom: 1px solid #3a3a3a;
     }
+    
+    #menu {
+      font-size: 110%;
   }
+  #menu > li {
+    padding-left: 3rem;
+  } 
+} 
+
+/*Larger devices (1440 and up)*/
+@media screen and (min-width: 1440px) {
+  #menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+  }
+  
+  #menu {
+    font-size: 120%;
 }
+#menu > li {
+  padding-left: 4rem;
+} 
+} 
