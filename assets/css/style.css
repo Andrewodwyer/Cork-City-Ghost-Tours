@@ -25,6 +25,15 @@ h1 {
   font-size: 140%;
 }
 
+
+.center-text {
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+}
+
 .center-text > h1 {
   color: whitesmoke;
 }
@@ -159,14 +168,6 @@ object-fit: cover; /* Adjusts the image to cover the container */
     overflow: hidden; /* Ensure border-radius clips the image properly */
 }
 
-.center-text {
-    padding: 10%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-self:center;
-}
-
 /* Our Tour Section */
 #our-tours {
     background: #CAE0DF;
@@ -254,6 +255,10 @@ object-fit: cover; /* Adjusts the image to cover the container */
     text-align: center;
     padding-left: 1rem;
   }
+
+.right-area p {
+  padding: 10%;
+}
 
   /* Button styles */
   .contact-btn {
