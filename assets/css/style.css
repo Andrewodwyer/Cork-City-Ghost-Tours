@@ -60,6 +60,17 @@ p {
 .hidden-heading {
     display: none;
 }
+
+#contact-background {
+  height: 100vh;
+  width: 100%;
+  /*background-color: #1B8A6B;*/
+  background: url("../images/18th_century_cork_city_map.jpeg");
+  background-size: cover;
+  background-position: 50%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
 /* header */
 header {
     background-color: #ffffff;
