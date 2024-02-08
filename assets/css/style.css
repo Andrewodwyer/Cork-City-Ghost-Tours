@@ -356,7 +356,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     margin-top: 88px;
   }  
   #menu {
-    font-size: 110%;
+    font-size: 100%;
   }
   #menu > li {
     padding-left: 3rem;
@@ -375,17 +375,17 @@ object-fit: cover; /* Adjusts the image to cover the container */
 /*Larger devices (1440 and up)*/
 @media screen and (min-width: 1440px) {
   main {
-    margin-top: 98px;
+    margin-top: 86px;
   } 
   #menu {
-    font-size: 130%;
+    font-size: 100%;
   }
   #menu > li {
     padding-left: 4rem;
   } 
 
   h1, h2, h3, h4 {
-    font-size: 160%;
+    font-size: 140%;
   }
 
   p {
@@ -399,17 +399,17 @@ object-fit: cover; /* Adjusts the image to cover the container */
     margin-top: 98px;
   } 
   #menu {
-    font-size: 180%;
+    font-size: 120%;
   }
   #menu > li {
-    padding-left: 8rem;
-    margin-right: 2rem;
+    padding-left: 5rem;
+    margin-right: 0.5rem;
   } 
   #logo {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   h1, h2, h3, h4, p {
-      font-size: 200%;
+      font-size: 150%;
   }
 }
