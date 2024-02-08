@@ -148,8 +148,9 @@ main {
 
 /* to keep the image from taking up more then 50% of the screen */
 .restrain-image {
-max-width: 100%;
+width: 100%;
 display: block;
+object-fit: cover; /* Adjusts the image to cover the container */
 }
 
 .rounded-image {
@@ -274,6 +275,10 @@ display: block;
   }
 
 /* footer */
+/* thinking of idea for large screen footer
+#logo-social {
+  
+} */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -311,10 +316,15 @@ display: block;
     display: none;
     }
 
+  main {
+    margin-top: 80px;
+  }  
+
   #menu {
     display: flex;
     font-size: 100%;
   }
+  
   #menu > li {
     padding-left: 2rem;
   }  
@@ -342,28 +352,64 @@ display: block;
     
 /*Larger devices (992px and up)*/
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-      border-bottom: 1px solid #3a3a3a;
-    }
-    
-    #menu {
-      font-size: 110%;
+  main {
+    margin-top: 88px;
+  }  
+  #menu {
+    font-size: 110%;
   }
   #menu > li {
     padding-left: 3rem;
   } 
+  .contact-btn {
+    font-size: 130%;
+  }
+  h1, h2, h3, h4 {
+    font-size: 100%;
+  }
+  footer {
+
+  }
 } 
 
 /*Larger devices (1440 and up)*/
 @media screen and (min-width: 1440px) {
-  #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
-  }
-  
+  main {
+    margin-top: 98px;
+  } 
   #menu {
-    font-size: 120%;
+    font-size: 130%;
+  }
+  #menu > li {
+    padding-left: 4rem;
+  } 
+
+  h1, h2, h3, h4 {
+    font-size: 160%;
+  }
+
+  p {
+    font-size: 110%;
+  }
+} 
+
+/*Larger devices (2560 and up)*/
+@media screen and (min-width: 2560px) {
+  main {
+    margin-top: 98px;
+  } 
+  #menu {
+    font-size: 180%;
+  }
+  #menu > li {
+    padding-left: 8rem;
+    margin-right: 2rem;
+  } 
+  #logo {
+    margin-left: 2rem;
+  }
+
+  h1, h2, h3, h4, p {
+      font-size: 200%;
+  }
 }
-#menu > li {
-  padding-left: 4rem;
-} 
-} 
