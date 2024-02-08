@@ -24,6 +24,10 @@ h1 {
   color:#252525;
 }
 
+.center-text > h1 {
+  color: whitesmoke;
+}
+
 h2, h3 {
   font-family: 'Roboto 100', sans-serif;
   letter-spacing: 1px;
@@ -84,7 +88,7 @@ nav {
     position: absolute;
     background-color: rgba(255,255,255, 0.98); /* 0.98 make the colour only slightly transparent*/
     width: 100%;
-    right: 0;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 5px 10px #064159;
     display: none;
@@ -109,7 +113,7 @@ nav {
 /* logo */
 #logo {
   font-size: 120%;
-  line-height: 75px;
+  line-height: 50px;
   margin: 0px 0.5rem;
 }
 
@@ -118,7 +122,7 @@ nav {
 main {
   background-color: #CAE0DF;
   flex: 1 0 auto;
-  margin-top: 20px;
+  margin-top: 47px;
 }
 
 /* text for main */
@@ -167,6 +171,7 @@ display: block;
     border-radius: 5px;
     box-shadow: 0 6px 4px gray;
     margin: 1rem;
+    transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
 }
 
 /* container holding the our-guides cards*/
