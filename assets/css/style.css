@@ -11,17 +11,18 @@
 /* General styles */
 body {
   min-height: 100vh;
-  /*display:flex;
-  flex-direction: column;*/
+  display:flex;
+  flex-direction: column;
   /* Generic project style*/
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto thin', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color:#252525;
+  font-size: 140%;
 }
 
 .center-text > h1 {
@@ -60,7 +61,8 @@ header {
     box-shadow: 0 5px 10px #064159;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    /*align-items: baseline;*/
 }
 
 header a {
@@ -111,18 +113,19 @@ nav {
 }
 
 /* logo */
-#logo {
+
+/*#logo {
   font-size: 120%;
   line-height: 50px;
   margin: 0px 0.5rem;
-}
+}*/
 
 /*main*/
 /* main section takes up all extra space and pushes the footer down*/ 
 main {
   background-color: #CAE0DF;
   flex: 1 0 auto;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 /* text for main */
