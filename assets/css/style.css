@@ -51,7 +51,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    /*box-shadow: 0 2px 2px #3a3a3a;*/
+    box-shadow: 0 5px 10px #064159;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,13 +63,14 @@ header a {
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 2px;
+    font-size: 140%;
+    letter-spacing: 4px;
     list-style-type: none;
+    margin-top: 2em;
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .active {
@@ -79,18 +80,19 @@ header a {
 /* nav bar style with drop down menu */
 nav {
     position: absolute;
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255,255,255, 0.98); /* 0.98 make the colour only slightly transparent*/
     width: 100%;
     right: 0;
     padding: 0 1rem;
     display: none;
     top: 100%;
-    text-align: right;
+    text-align: center;
 }
 
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    box-shadow: 0px 10px 18px #f8fcfd;
 }
 
 #nav-toggle {
