@@ -385,7 +385,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   } 
 
   h1, h2, h3, h4 {
-    font-size: 140%;
+    font-size: 120%;
   }
 
   p {
@@ -410,6 +410,6 @@ object-fit: cover; /* Adjusts the image to cover the container */
   }
 
   h1, h2, h3, h4, p {
-      font-size: 150%;
+      font-size: 130%;
   }
 }
