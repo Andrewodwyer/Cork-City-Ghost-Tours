@@ -428,7 +428,7 @@ flex: 1 /* Adjusts the image to cover the container */
     font-size: 130%;
   }
   h1, h2, h3, h4 {
-    font-size: 110%;
+    font-size: 120%;
   }
   #menu {
     display: flex;
@@ -492,7 +492,7 @@ flex: 1 /* Adjusts the image to cover the container */
     font-size: 130%;
   }
   h1, h2, h3, h4 {
-    font-size: 110%;
+    font-size: 130%;
   }
   footer {
 
@@ -512,7 +512,7 @@ flex: 1 /* Adjusts the image to cover the container */
   } 
 
   h1, h2, h3, h4 {
-    font-size: 120%;
+    font-size: 140%;
   }
 
   p {
@@ -537,6 +537,6 @@ flex: 1 /* Adjusts the image to cover the container */
   }
 
   h1, h2, h3, h4, p {
-      font-size: 130%;
+      font-size: 150%;
   }
 }
