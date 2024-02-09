@@ -300,13 +300,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     color: #3a3a3a
 }
 
-.background-map {
-  background-color: #1B8A6B;
-  background-image:url(/assets/images/18th_century_cork_city_map.jpeg);
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:center;
-}
+/*booking page*/
 
 #contact-background {
   height: 100vh;
@@ -315,7 +309,6 @@ object-fit: cover; /* Adjusts the image to cover the container */
   background: url("../images/18th_century_cork_city_map.jpeg");
   background-size: cover;
   background-position: auto;
-
 }
 
 .transparent-color {
@@ -326,14 +319,17 @@ object-fit: cover; /* Adjusts the image to cover the container */
   flex-grow: 1;
 }
 
+/* form */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
   position: fixed;
-  justify-content: center;
+  /*display: block;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
   padding: 30px;
   border-radius: 10px;
-  margin: 20px;
 }
 
 #booking-form> h2 {
@@ -350,13 +346,61 @@ object-fit: cover; /* Adjusts the image to cover the container */
   border-radius: 2px;
   padding: 0 5px;
 }
-
+/*height of the 1 line text fields in form */
 .box-height-25 {
   height: 25px;
 }
-
+/*height of the 4 line/row text fields in form */
 .text-input textarea {
   height: 150px; /* Adjust as needed */
+}
+
+/* pop-up area*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 80px 10px;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  /*width: 60vw;*/
+  position: relative;
+}
+/*overlay close button style*/
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: orange;
+}
+
+/*Boo ghost image*/
+#boo-ghost {
+  background:url("../images/ghost_boo.jpeg") no-repeat center center/cover;
+  min-height: 240px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /* Media query for tablets and larger screens */
@@ -376,7 +420,12 @@ object-fit: cover; /* Adjusts the image to cover the container */
   main {
     margin-top: 80px;
   }  
-
+  #boo-ghost{
+    height: 90%;
+  }
+  .popup{
+    height: 90%;
+  }
   #menu {
     display: flex;
     font-size: 100%;
@@ -405,16 +454,12 @@ object-fit: cover; /* Adjusts the image to cover the container */
     height: 100%;
     object-fit: cover;
   }  
-    /* Form */
-  #contact-background {
-      background-position: center;
-      position: relative;
-  }
 
   #booking-form {
       max-width: 600px;
-      left: 10%;
-      top: 150px;
+      /*if i wanted the box to be on the left*/
+      /*left: 10%;
+      top: 150px;*/
   }
 
   .text-input:hover {
