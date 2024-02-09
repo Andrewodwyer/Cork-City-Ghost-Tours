@@ -266,7 +266,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     padding: 10px 20px;
     margin-top: 2rem;
     /*background-color:  #DF9A5C;*/
-    background-image: linear-gradient(#F7873F, #FF683B);
+    background-image: linear-gradient(#F7873F, #D95105);
     color: #fff;
     border: none;
     border-radius: 5px;
