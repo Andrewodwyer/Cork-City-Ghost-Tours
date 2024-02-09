@@ -328,8 +328,10 @@ object-fit: cover; /* Adjusts the image to cover the container */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.6);
+  position: fixed;
   padding: 30px;
-  border-radius: 5%;
+  border-radius: 20px;
+  top: 5em;
 }
 
 #booking-form>h2 {
@@ -400,8 +402,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   }
 
   #booking-form {
-      max-width: 400px;
-      position: absolute;
+      max-width: 600px;
       left: 10%;
       top: 150px;
   }
