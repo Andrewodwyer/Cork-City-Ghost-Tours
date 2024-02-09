@@ -81,7 +81,7 @@ header a {
 }
 
 #menu {
-    font-size: 140%;
+    font-size: 100%;
     letter-spacing: 4px;
     list-style-type: none;
     margin-top: 2em;
@@ -161,8 +161,8 @@ main {
 /* to keep the image from taking up more then 50% of the screen */
 .restrain-image {
 width: 100%;
-display: block;
-object-fit: cover; /* Adjusts the image to cover the container */
+display: flex;
+flex: 1 /* Adjusts the image to cover the container */
 }
 
 .rounded-image {
@@ -305,12 +305,10 @@ object-fit: cover; /* Adjusts the image to cover the container */
 /*booking page*/
 
 #contact-background {
-  height: 100vh;
-  width: 100%;
   /*background-color: #1B8A6B;*/
-  background: url("../images/18th_century_cork_city_map.jpeg");
-  background-size: cover;
-  background-position: auto;
+  background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
+  display: flex;
+  flex-grow: 1;
 }
 
 .transparent-color {
@@ -318,6 +316,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   height: 100vh;
   width: 100%;
   padding: 20px 10% 0 10%;
+  display: flex;
   flex-grow: 1;
 }
 
@@ -426,7 +425,12 @@ object-fit: cover; /* Adjusts the image to cover the container */
   main {
     margin-top: 80px;
   }  
-
+  .contact-btn {
+    font-size: 130%;
+  }
+  h1, h2, h3, h4 {
+    font-size: 110%;
+  }
   #menu {
     display: flex;
     font-size: 100%;
@@ -474,13 +478,13 @@ object-fit: cover; /* Adjusts the image to cover the container */
   }
 }  
     
-/*Larger devices (992px and up)*/
-@media screen and (min-width: 992px) {
+/*Larger devices (1024px and up)*/
+@media screen and (min-width: 1024px) {
   main {
     margin-top: 88px;
   }  
   #menu {
-    font-size: 100%;
+    font-size: 110%;
   }
   #menu > li {
     padding-left: 3rem;
@@ -489,7 +493,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     font-size: 130%;
   }
   h1, h2, h3, h4 {
-    font-size: 100%;
+    font-size: 110%;
   }
   footer {
 
@@ -502,7 +506,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     margin-top: 86px;
   } 
   #menu {
-    font-size: 100%;
+    font-size: 120%;
   }
   #menu > li {
     padding-left: 4rem;
@@ -523,7 +527,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
     margin-top: 98px;
   } 
   #menu {
-    font-size: 120%;
+    font-size: 130%;
   }
   #menu > li {
     padding-left: 5rem;
