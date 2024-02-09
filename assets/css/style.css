@@ -420,12 +420,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   main {
     margin-top: 80px;
   }  
-  #boo-ghost{
-    height: 90%;
-  }
-  .popup{
-    height: 90%;
-  }
+
   #menu {
     display: flex;
     font-size: 100%;
@@ -470,6 +465,12 @@ object-fit: cover; /* Adjusts the image to cover the container */
       background-color: #fafafa;
       color: #454b1b;
   }  
+  #boo-ghost{
+    height: 90%;
+  }
+  .popup{
+    height: 90%;
+  }
 }  
     
 /*Larger devices (992px and up)*/
