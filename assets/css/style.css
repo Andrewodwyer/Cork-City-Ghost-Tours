@@ -264,7 +264,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   /* Button styles */
   .contact-btn {
     padding: 10px 20px;
-    margin-top: 4rem;
+    margin-top: 2rem;
     background-color: #1B8A6B;
     color: #fff;
     border: none;
