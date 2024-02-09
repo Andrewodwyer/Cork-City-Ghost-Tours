@@ -21,7 +21,7 @@ h1 {
   font-family: 'Roboto thin', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color:#252525;
+  color:whitesmoke;
   font-size: 140%;
 }
 
@@ -34,8 +34,8 @@ h1 {
     align-self:center;
 }
 
-.center-text > h1 {
-  color: whitesmoke;
+header h1 {
+  color: #252525;
 }
 
 h2, h3 {
