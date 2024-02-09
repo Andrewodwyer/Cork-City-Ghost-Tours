@@ -135,6 +135,8 @@ main {
   background-color: whitesmoke;
   flex: 1 0 auto;
   margin-top: 37px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* text for main */
@@ -315,7 +317,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   background-color: rgba(27,138,107, .6);
   height: 100vh;
   width: 100%;
-  /*padding: 20px 10% 0 10%;*/
+  padding: 20px 10% 0 10%;
   flex-grow: 1;
 }
 
@@ -324,7 +326,7 @@ object-fit: cover; /* Adjusts the image to cover the container */
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
   position: absolute;
-  top: 50%;
+  /*top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /*position: fixed;
@@ -433,11 +435,6 @@ object-fit: cover; /* Adjusts the image to cover the container */
   #menu > li {
     padding-left: 2rem;
   }  
-
-  #logo {
-    font-size: 200%;
-    line-height: 5px;
-  }
 
   #our-guides {
     flex: 1;
