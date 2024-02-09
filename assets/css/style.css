@@ -313,7 +313,6 @@ flex: 1 /* Adjusts the image to cover the container */
 
 .transparent-color {
   background-color: rgba(27,138,107, .6);
-  height: 100vh;
   width: 100%;
   padding: 20px 10% 0 10%;
   display: flex;
