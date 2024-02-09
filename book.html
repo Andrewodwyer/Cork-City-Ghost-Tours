@@ -39,15 +39,21 @@
     <section id="contact-background">
       <section class="transparent-color">
         <form id="booking-form" method="POST" action="https://formdump.codeinstitute.net">
-          <h1>Book your tour</h1>
+          <h2>Book your tour</h2>
           <label for="first_name">First Name</label>
-          <input type="text" name="first_name" id="first_name" class="text-input" required>
+          <input type="text" name="first_name" id="first_name" class="text-input box-height-25" required>
           <br>
           <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" id="last_name" class="text-input" required>
+          <input type="text" name="last_name" id="last_name" class="text-input box-height-25" required>
           <br>
           <label for="email_address">Email Address</label>
-          <input type="email" name="email_address" id="email_address" class="text-input" required>
+          <input type="email" name="email_address" id="email_address" class="text-input box-height-25" required>
+          <br>
+          <label for="phone_number">Phone number</label>
+          <input type="number" name="phone_number" id="phone_number" class="text-input box-height-25" required>
+          <br>
+          <label for="your_message">Your Message</label>
+          <textarea type="text" name="your_message" id="your_message" class="text-input" rows="4" required></textarea>
           <br>
           <button type="submit" class="contact-btn">Send!</button>
       </form>
