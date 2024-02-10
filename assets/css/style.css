@@ -311,15 +311,16 @@ flex: 1 /* Adjusts the image to cover the container */
 
 .transparent-color {
   background-color: rgba(27,138,107, .6);
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
+  padding: 5%;
 }
 
 /* form */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
-  margin: 20px;
+  margin: auto;
   padding: 30px;
   border-radius: 10px;
 }
@@ -347,6 +348,53 @@ flex: 1 /* Adjusts the image to cover the container */
   height: 150px;
 }
 
+/* pop-up area*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 80px 10px;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60vw;
+  position: relative;
+}
+/*overlay close button style*/
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: orange;
+}
+
+/*Boo ghost image*/
+#boo-ghost {
+  background:url("../images/ghost_boo.jpeg") no-repeat center/cover;
+  min-height: 240px;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 768px) {
