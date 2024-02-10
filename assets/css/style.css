@@ -307,31 +307,19 @@ flex: 1 /* Adjusts the image to cover the container */
 #contact-background {
   /*background-color: #1B8A6B;*/
   background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
-  display: flex;
-  flex-grow: 1;
 }
 
 .transparent-color {
   background-color: rgba(27,138,107, .6);
-  width: 100%;
-  padding: 20px 10% 0 10%;
-  display: flex;
-  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 /* form */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
-  position: absolute;
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /*position: fixed;
-  display: block;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
+  margin: 20px;
   padding: 30px;
   border-radius: 10px;
 }
@@ -356,56 +344,9 @@ flex: 1 /* Adjusts the image to cover the container */
 }
 /*height of the 4 line/row text fields in form */
 .text-input textarea {
-  height: 150px; /* Adjust as needed */
+  height: 150px;
 }
 
-/* pop-up area*/
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 80px 10px;
-  padding: 50px;
-  background: #fff;
-  border-radius: 5px;
-  width: 60vw;
-  position: relative;
-}
-/*overlay close button style*/
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-
-.popup .close:hover {
-  color: orange;
-}
-
-/*Boo ghost image*/
-#boo-ghost {
-  background:url("../images/ghost_boo.jpeg") no-repeat center/cover;
-  min-height: 240px;
-  width: 100%;
-  margin-bottom: 20px;
-}
 
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 768px) {
@@ -425,7 +366,7 @@ flex: 1 /* Adjusts the image to cover the container */
     margin-top: 80px;
   }  
   .contact-btn {
-    font-size: 130%;
+    font-size: 120%;
   }
   h1, h2, h3, h4 {
     font-size: 120%;
@@ -489,10 +430,10 @@ flex: 1 /* Adjusts the image to cover the container */
     padding-left: 3rem;
   } 
   .contact-btn {
-    font-size: 130%;
+    font-size: 120%;
   }
   h1, h2, h3, h4 {
-    font-size: 130%;
+    font-size: 120%;
   }
   footer {
 
@@ -512,7 +453,7 @@ flex: 1 /* Adjusts the image to cover the container */
   } 
 
   h1, h2, h3, h4 {
-    font-size: 140%;
+    font-size: 130%;
   }
 
   p {
