@@ -283,6 +283,36 @@ flex: 1 /* Adjusts the image to cover the container */
     border: 2px solid #DF9A5C;
   }
 
+  .contact-btn-send {
+    padding: 25px 20px;
+    margin-top: 1em;
+    /*background-color:  #DF9A5C;*/
+    background-image: linear-gradient(#F7873F, #D95105);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+
+  .contact-btn-send:hover {
+    background:url("../images/ghost_boo.jpeg") no-repeat center/cover;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000; 
+    border: 2px solid #DF9A5C;
+    transform: scale(3);
+    position: absolute;
+  }
+  .btn {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+  }
+
 /* footer */
 /* thinking of idea for large screen footer
 #logo-social {
