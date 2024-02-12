@@ -47,6 +47,10 @@ h2, h3 {
 h4 {
   font-family: 'Roboto 100', sans-serif;
   letter-spacing: 1px;
+}
+
+/*h4 text margin */
+.margin-l-t-u {
   margin-left: 1rem;
   margin-top: 2rem;
   text-transform: uppercase;
