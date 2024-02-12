@@ -94,13 +94,14 @@ header a {
 #menu > li {
     margin-bottom: 2em;
 }
-
+/*active button for underline links when clicked */
+/*
 .active {
   border-bottom: 1px solid #252525;
 }
-
-:active {
-  border-bottom: 1px solid #252525;
+*/
+li > a:hover {
+  color: silver;  
 }
 /* nav bar style with drop down menu */
 nav {
