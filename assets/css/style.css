@@ -99,6 +99,9 @@ header a {
   border-bottom: 1px solid #252525;
 }
 
+:active {
+  border-bottom: 1px solid #252525;
+}
 /* nav bar style with drop down menu */
 nav {
     position: absolute;
