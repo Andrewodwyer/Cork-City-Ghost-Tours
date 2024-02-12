@@ -287,8 +287,8 @@ flex: 1 /* Adjusts the image to cover the container */
   }
 
   .contact-btn:hover {
-    background-color: white; 
-    color: #064159; 
+    background: #D95105; 
+    color: white; 
     border: 2px solid #DF9A5C;
   }
 /* to add image to book button on hover*/
