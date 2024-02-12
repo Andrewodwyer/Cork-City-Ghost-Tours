@@ -288,14 +288,14 @@ flex: 1 /* Adjusts the image to cover the container */
 
   .contact-btn:hover {
     background-color: white; 
-    color: black; 
+    color: #064159; 
     border: 2px solid #DF9A5C;
   }
-
+/* to add image to book button on hover*/
+/*
   .contact-btn-send {
     padding: 25px 20px;
     margin-top: 1em;
-    /*background-color:  #DF9A5C;*/
     background-image: linear-gradient(#F7873F, #D95105);
     color: #fff;
     border: none;
@@ -316,6 +316,7 @@ flex: 1 /* Adjusts the image to cover the container */
     transform: scale(3);
     position: absolute;
   }
+  */
   .btn {
     display: flex;
     justify-content: center; /* center horizontally */
