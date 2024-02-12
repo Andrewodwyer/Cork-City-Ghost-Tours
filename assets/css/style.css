@@ -470,7 +470,7 @@ flex: 1 /* Adjusts the image to cover the container */
     padding-left: 2rem;
   }  
 
-  #our-guides {
+  .our-guides {
     flex: 1;
     }
 
