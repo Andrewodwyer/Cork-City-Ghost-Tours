@@ -197,7 +197,7 @@ flex: 1 /* Adjusts the image to cover the container */
 }
 
 /* Meet our Guides */
-#our-guides {
+.our-guides {
     background: #e3e3dc;
     border: solid 1px #3a3a3a;
     border-radius: 5px;
@@ -283,6 +283,7 @@ flex: 1 /* Adjusts the image to cover the container */
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.3s;
+    text-decoration: none;
   }
 
   .contact-btn:hover {
