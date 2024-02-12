@@ -49,6 +49,10 @@ h4 {
   letter-spacing: 1px;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 /*h4 text margin */
 .margin-l-t-u {
   margin-left: 1rem;
@@ -347,9 +351,8 @@ iframe {
 
 .copyright {
   color:#064159;
-  padding-bottom: 5px;
-  margin: 5px;
-  text-align: end;
+  margin: 5px 0 15px 0;
+  text-align: center;
   letter-spacing: .2em;
   font-size: 80%;
 }
@@ -371,6 +374,10 @@ iframe {
 }
 
 /* form */
+.contact-info {
+  margin-bottom: 25px;
+}
+
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
@@ -379,9 +386,17 @@ iframe {
   border-radius: 10px;
 }
 
-#booking-form> h2 {
+.contact-info> h3 {
   color: #4b4b4b;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-info> p {
+  font-size: 60%;
+  text-align: center;
+  letter-spacing: .2em;
+  margin: 10px;
 }
 
 .text-input {
