@@ -328,12 +328,6 @@ flex: 1 /* Adjusts the image to cover the container */
   }
 
 /* footer */
-/* thinking of idea for large screen footer*/
-
-iframe {
-  width:100%; 
-  height:20%; 
-}
 
 #social-networks {
     text-align: center;
@@ -374,9 +368,6 @@ iframe {
 }
 
 /* form */
-.contact-info {
-  margin-bottom: 25px;
-}
 
 #booking-form {
   color: #4b4b4b;
@@ -408,6 +399,7 @@ iframe {
   border-radius: 2px;
   padding: 0 5px;
 }
+
 /*height of the 1 line text fields in form */
 .box-height-25 {
   height: 25px;
@@ -415,6 +407,17 @@ iframe {
 /*height of the 4 line/row text fields in form */
 .text-input textarea {
   height: 150px;
+}
+
+.contact-info {
+  margin-bottom: 25px;
+}
+
+/* 4 inputs to be size by side on larger screens*/
+.middle-input {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  justify-content: space-between;
 }
 
 /* pop-up area*/
@@ -521,6 +524,11 @@ iframe {
       /*if i wanted the box to be on the left*/
       /*left: 10%;
       top: 150px;*/
+  }
+
+/* make the first 4 form inputs flex*/
+  .form-input {
+    flex: 0 0 48%; /* Make each input take up 48% width on larger screens */
   }
 
   .text-input:hover {
