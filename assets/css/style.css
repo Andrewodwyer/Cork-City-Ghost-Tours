@@ -497,7 +497,7 @@ flex: 1 /* Adjusts the image to cover the container */
     margin-top: 80px;
   }  
   .contact-btn {
-    font-size: 120%;
+    font-size: 100%;
   }
   h1, h2, h3, h4 {
     font-size: 120%;
@@ -569,9 +569,7 @@ flex: 1 /* Adjusts the image to cover the container */
   #menu > li {
     padding-left: 3rem;
   } 
-  .contact-btn {
-    font-size: 120%;
-  }
+
   h1, h2, h3, h4 {
     font-size: 120%;
   }
