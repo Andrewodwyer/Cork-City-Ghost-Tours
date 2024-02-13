@@ -289,11 +289,15 @@ flex: 1 /* Adjusts the image to cover the container */
     transition-duration: 0.3s;
     text-decoration: none;
   }
+  .contact-btn > p {
+    font-size: 70%;
+  }
 
   .contact-btn:hover {
     background-image: linear-gradient(#D95105, #F7873F);
     color: white; 
-    border: 1px solid #DF9A5C;
+    border-left: 1px solid #DF9A5C;
+    border-right: 1px solid #DF9A5C;
   }
 /* to add image to book button on hover*/
 /*
