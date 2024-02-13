@@ -421,10 +421,14 @@ flex: 1 /* Adjusts the image to cover the container */
 /* 4 inputs to be size by side on larger screens*/
 .middle-input {
   display: flex;
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
   justify-content: space-between;
   width: 100%;
+}
+
+.form-input {
+  width: 100%
 }
 
 /* pop-up area*/
