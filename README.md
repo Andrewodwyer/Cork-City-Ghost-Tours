@@ -1,13 +1,13 @@
 # CC Ghost Tours
 
+This is a visual online presence for Cork City ghost tour. It is designed to engage potential customers.
+The target audience would be individual and families interested in a cultural and fun haunted tour of 18th century Cork city. Families from the area and also families visiting Cork as tourists, seeking family-friendly activities that provide cultural and historical insights.
+CC Ghost Tour will provide information on the type of ghost tours on offer, who will provide the tours, where it will take place and how to get in contact to book a tour. 
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Image showing screenshots on different size screens][documentation/images/am-i-responsive.png]
 
 ## Features 
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -93,14 +93,19 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+Log in to GitHub and select CC ghost tour repository.
+From this repository, navigate to "Settings" (This is at the top of the page).
+when in settings, navigate to pages from the left-hand menu.
+In source select “Deploy from a Branch” in the drop down menu.
+In branch select “main”. The folder next to it will be “/(root)”
+At this point you click “Save”
+Your site is now being deployed.
+After several minutes the site was deployed.
+A link to the deployed site is at the top of this page, click “Visit site”
+Alternatively, To get access to the deployed site, click on the “Code” tab of the repository.
+On the right-hand side under “environments” click on “GitHub-pages”
+In the newly opened pages, click on “view deployment”
+[live site](https://andrewodwyer.github.io/Cork-City-Ghost-Tours/)
 
 
 ## Credits 
@@ -139,3 +144,6 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+[def]: assets/images/ghost_tour_cork_skeleton.jpeg
+[def2]: assets/images/ghost_tour_cork_skeleton.jpeg
