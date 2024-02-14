@@ -361,7 +361,7 @@ flex: 1 /* Adjusts the image to cover the container */
 #contact-background {
   /*background-color: #1B8A6B;*/
   background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
-  /*height: 100vh;*/
+  height: 100%; /*change from vh so there is less space under form*/
 }
 
 .transparent-color {
@@ -369,7 +369,7 @@ flex: 1 /* Adjusts the image to cover the container */
   /*justify-content: center;
   align-items: center;*/
   padding: 5%;
-  height: 100vh;
+  height: 100%; /*change from vh so there is less space under form*/
 }
 
 /* form */
@@ -377,7 +377,7 @@ flex: 1 /* Adjusts the image to cover the container */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
-  margin: auto;
+  margin: 20px auto; /* to center the form on the page*/
   padding: 30px;
   border-radius: 10px;
 }
