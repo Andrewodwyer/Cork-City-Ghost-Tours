@@ -344,7 +344,7 @@ flex: 1 /* Adjusts the image to cover the container */
 
 #social-networks i {
     font-size: 160%;
-    padding: 5%;
+    padding: 30%;
     color: #3a3a3a
 }
 
@@ -377,7 +377,7 @@ flex: 1 /* Adjusts the image to cover the container */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
-  margin: 70px auto; /* to center the form on the page*/
+  margin: 40px auto; /* to center the form on the page*/
   padding: 30px;
   border-radius: 10px;
 }
