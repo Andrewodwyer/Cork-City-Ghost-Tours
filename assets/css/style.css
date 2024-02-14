@@ -361,15 +361,15 @@ flex: 1 /* Adjusts the image to cover the container */
 #contact-background {
   /*background-color: #1B8A6B;*/
   background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
-  height: 100%; /*change from vh so there is less space under form*/
+  height: 100%; /*change from vh to 100% so there is less space under form. did not work*/
 }
 
-.transparent-color {
+#transparent-color {
   background-color: rgba(27,138,107, .6);
   /*justify-content: center;
   align-items: center;*/
   padding: 5%;
-  height: 100%; /*change from vh so there is less space under form*/
+  /*height: 100vh; /*change from vh to 100% so there is less space under form. did not work*/
 }
 
 /* form */
@@ -377,7 +377,7 @@ flex: 1 /* Adjusts the image to cover the container */
 #booking-form {
   color: #4b4b4b;
   background-color: rgba(245, 245, 245, 0.9);
-  margin: 20px auto; /* to center the form on the page*/
+  margin: 70px auto; /* to center the form on the page*/
   padding: 30px;
   border-radius: 10px;
 }
@@ -407,11 +407,11 @@ flex: 1 /* Adjusts the image to cover the container */
 
 /*height of the 1 line text fields in form */
 .box-height-25 {
-  height: 25px;
+  height: 30px;
 }
 /*height of the 4 line/row text fields in form */
 .text-input textarea {
-  height: 150px;
+  height: 300px;
 }
 
 .contact-info {
