@@ -361,7 +361,7 @@ flex: 1 /* Adjusts the image to cover the container */
 #contact-background {
   /*background-color: #1B8A6B;*/
   background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .transparent-color {
