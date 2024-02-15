@@ -54,6 +54,12 @@ h3, h4 {
   text-transform: uppercase;
 }
 
+.center {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
 /*h4 text margin */
 .margin-l-t-u {
   margin-left: 1rem;
@@ -180,7 +186,7 @@ flex: 1 /* Adjusts the image to cover the container */
 }
 
 .rounded-image {
-    border: 2px solid #333; /* Border color */
+    border: 2px solid #333;
     border-radius: 10px; /* Border radius for rounded corners */
     overflow: hidden; /* Ensure border-radius clips the image properly */
 }
@@ -327,11 +333,6 @@ flex: 1 /* Adjusts the image to cover the container */
     position: absolute;
   }
   */
-  .btn {
-    display: flex;
-    justify-content: center; /* center horizontally */
-    align-items: center; /* center vertically */
-  }
 
 /* footer */
 
