@@ -3,9 +3,9 @@
 
 /* asterisk wildcard selector to override default styles added by the browser */
 *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
 
 /* General styles */
@@ -27,11 +27,11 @@ h1 {
 
 
 .center-text {
-    padding: 10%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-self:center;
+  padding: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self:center;
 }
 
 .center-text h1 {
@@ -46,8 +46,7 @@ h2 {
 
 h3, h4 {
   font-family: 'Roboto 100', sans-serif;
-  letter-spacing: 1px;
-  
+  letter-spacing: 1px; 
 }
 
 .uppercase {
@@ -73,74 +72,68 @@ p {
 }
 
 .hidden-heading {
-    display: none;
+  display: none;
 }
 
 
 /* header */
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 5px 10px #064159;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*align-items: baseline;*/
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 5px 10px #064159;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-    list-style-type: none;
-    margin-top: 2em;
+  font-size: 100%;
+  letter-spacing: 4px;
+  list-style-type: none;
+  margin-top: 2em;
 }
 
 #menu > li {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
-/*active button for underline links when clicked */
-/*
-.active {
-  border-bottom: 1px solid #252525;
-}
-*/
+
 li > a:hover {
   color: silver;  
 }
 /* nav bar style with drop down menu */
 nav {
-    position: absolute;
-    background-color: rgba(255,255,255, 0.92); /* 0.98 make the colour only slightly transparent*/
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    /*box-shadow: 0px 10px 24px #f8fcfd;*/
-    box-shadow: 0 5px 10px #064159;
-    display: none;
-    top: 100%;
-    text-align: center;
+  position: absolute;
+  background-color: rgba(255,255,255, 0.92); /* 0.98 make the colour only slightly transparent*/
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  /*box-shadow: 0px 10px 24px #f8fcfd;*/
+  box-shadow: 0 5px 10px #064159;
+  display: none;
+  top: 100%;
+  text-align: center;
 }
 
 /* nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
-    /*box-shadow: 0px 10px 18px #f8fcfd;*/
+  display: block;
+  /*box-shadow: 0px 10px 18px #f8fcfd;*/
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /*#logo {
@@ -164,41 +157,41 @@ main {
 /*hero image and main text section*/
 
 .left-image-on-card {
-    flex: 1;
+  flex: 1;
 }
 
 .right-text-on-card {
-    display: flex;
-    flex: 1;
-    min-height: 260px;
+  display: flex;
+  flex: 1;
+  min-height: 260px;
 }
 /*gradient for hero text*/
 .gradient-top-down-white-text {
-    background-image: linear-gradient(#064159, #076576);
-    color:whitesmoke;
+  background-image: linear-gradient(#064159, #076576);
+  color:whitesmoke;
 }
 
 /* to keep the image from taking up more then 50% of the screen */
 .restrain-image {
-width: 100%;
-display: flex;
-flex: 1 /* Adjusts the image to cover the container */
+  width: 100%;
+  display: flex;
+  flex: 1 /* Adjusts the image to cover the container */
 }
 
 .rounded-image {
-    border: 2px solid #333;
-    border-radius: 10px; /* Border radius for rounded corners */
-    overflow: hidden; /* Ensure border-radius clips the image properly */
+  border: 2px solid #333;
+  border-radius: 10px; /* Border radius for rounded corners */
+  overflow: hidden; /* Ensure border-radius clips the image properly */
 }
 
 /* Our Tour Section */
 #our-tours {
-    background: #CAE0DF;
-    border: solid 1px #3a3a3a;
-    border-radius: 5px;
-    box-shadow: 0 6px 4px gray;
-    margin: 1rem;
-    transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
+  background: #CAE0DF;
+  border: solid 1px #3a3a3a;
+  border-radius: 5px;
+  box-shadow: 0 6px 4px gray;
+  margin: 1rem;
+  transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
 }
 
 /* container holding the our-guides cards*/
@@ -210,144 +203,115 @@ flex: 1 /* Adjusts the image to cover the container */
 
 /* Meet our Guides */
 .our-guides {
-    background: #e3e3dc;
-    border: solid 1px #3a3a3a;
-    border-radius: 5px;
-    box-shadow: 0 6px 4px gray;
-    margin: 1rem;
-    transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
+  background: #e3e3dc;
+  border: solid 1px #3a3a3a;
+  border-radius: 5px;
+  box-shadow: 0 6px 4px gray;
+  margin: 1rem;
+  transition: all 0.3s ease-in-out; /* transition for movement between screen sizes */
 }
 
 /*map section with gradient*/
 #map-gradient {
-    background-image: linear-gradient(#076576, #064159);
-    color:whitesmoke;
-    padding: 20px;
-    text-align: center;
-    margin-top: 2rem
+  background-image: linear-gradient(#076576, #064159);
+  color:whitesmoke;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2rem
 }
 
 .text-container {
-    margin: 20px;
-  }
+  margin: 20px;
+}
 
 .text-container h2 {
-    margin: 0;
-    font-size: 24px;
-  }
+  margin: 0;
+  font-size: 24px;
+}
 
 .map-container {
-    max-width: 100%;
-    margin: auto;
-  }
+  max-width: 100%;
+  margin: auto;
+}
 
 .map-container img {
-    max-width: 80%;
-    height: auto;
-    align-self: center;
-    margin: 5vw;
-  }  
+  max-width: 80%;
+  height: auto;
+  align-self: center;
+  margin: 5vw;
+}  
 
  /* Container for contact section */
-  .contact-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background-color: #CAE0DF;
-    margin-top: 2rem;
-  }
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #CAE0DF;
+  margin-top: 2rem;
+}
   
   /* Left area with picture */
-  .left-area {
-    flex: 1;
-    /* This will make the image div take up remaining space */
-    max-width: 50%;
-  }
+.left-area {
+  flex: 1;
+  /* This will make the image div take up remaining space */
+  max-width: 50%;
+}
 
-  .left-area img {
-    flex: 1;
-    min-height: 300px;
-    width: 100%; /* Image width will change with the screen width */
-    object-fit: cover; /* Adjusts the image to cover the container */
-  }
+.left-area img {
+  flex: 1;
+  min-height: 300px;
+  width: 100%; /* Image width will change with the screen width */
+  object-fit: cover; /* Adjusts the image to cover the container */
+}
   
   /* Right area with text and button */
 .right-area {
-    flex: 1;
-    text-align: center;
-    padding-left: 1rem;
-  }
+  flex: 1;
+  text-align: center;
+  padding-left: 1rem;
+}
 
 .right-area p {
   padding: 10%;
 }
 
-  /* Button styles */
-  .contact-btn {
-    padding: 10px 20px;
-    margin-top: 2rem;
-    /*background-color:  #DF9A5C;*/
-    background-image: linear-gradient(#F7873F, #D95105);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition-duration: 0.3s;
-    text-decoration: none;
-  }
-  .contact-btn > p {
-    font-size: 70%;
-  }
+/* Button styles */
+.contact-btn {
+  padding: 10px 20px;
+  margin-top: 2rem;
+  background-image: linear-gradient(#F7873F, #D95105);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  text-decoration: none;
+}
 
-  .contact-btn:hover {
-    background-image: linear-gradient(#D95105, #F7873F);
-    color: white; 
-    border-left: 1px solid #DF9A5C;
-    border-right: 1px solid #DF9A5C;
-  }
-/* to add image to book button on hover*/
-/*
-  .contact-btn-send {
-    padding: 25px 20px;
-    margin-top: 1em;
-    background-image: linear-gradient(#F7873F, #D95105);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition-duration: 0.3s;
-  }
-
-  .contact-btn-send:hover {
-    background:url("../images/ghost_boo.jpeg") no-repeat center/cover;
-    color: white;
-    text-shadow: -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000; 
-    border: 2px solid #DF9A5C;
-    transform: scale(3);
-    position: absolute;
-  }
-  */
+.contact-btn:hover {
+  background-image: linear-gradient(#D95105, #F7873F);
+  color: white; 
+  border-left: 1px solid #DF9A5C;
+  border-right: 1px solid #DF9A5C;
+}
 
 /* footer */
 
 #social-networks {
-    text-align: center;
-    padding: 10px 0 5px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 10px 0 5px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 150%;
-    padding: 30%;
-    color: #3a3a3a
+  font-size: 140%;
+  padding: 30%;
+  margin:0 5%;
+  color: #3a3a3a
 }
 
 .copyright {
@@ -369,17 +333,13 @@ flex: 1 /* Adjusts the image to cover the container */
 /*booking page*/
 
 #contact-background {
-  /*background-color: #1B8A6B;*/
   background: url("../images/18th_century_cork_city_map.jpeg") no-repeat center center/cover;
-  height: 100%; /*change from vh to 100% so there is less space under form. did not work*/
+  height: 100%;
 }
 
 #transparent-color {
   background-color: rgba(27,138,107, .6);
-  /*justify-content: center;
-  align-items: center;*/
   padding: 5%;
-  /*height: 100vh; /*change from vh to 100% so there is less space under form. did not work*/
 }
 
 /* form */
@@ -441,54 +401,6 @@ flex: 1 /* Adjusts the image to cover the container */
   width: 100%
 }
 
-/* pop-up area*/
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 80px 10px;
-  padding: 50px;
-  background: #fff;
-  border-radius: 5px;
-  width: 60vw;
-  position: relative;
-}
-/*overlay close button style*/
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-
-.popup .close:hover {
-  color: orange;
-}
-
-/*Boo ghost image*/
-#boo-ghost {
-  background:url("../images/ghost_boo.jpeg") no-repeat center/cover;
-  min-height: 240px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 768px) {
   /* menu changes to links instead of burgermenu at 768px */
@@ -523,12 +435,12 @@ flex: 1 /* Adjusts the image to cover the container */
 
   .our-guides {
     flex: 1;
-    }
+  }
 
   .image-and-text {
     display: flex;
     flex-direction: row;
-    }
+  }
 
   .restrain-image {
     display:flex;
@@ -541,35 +453,22 @@ flex: 1 /* Adjusts the image to cover the container */
   }
 
   #booking-form {
-      max-width: 600px;
-      /*if i wanted the box to be on the left*/
-      /*left: 10%;
-      top: 150px;*/
+    max-width: 600px;
   }
 
   .text-input:hover {
-      border-color: #f16c6b;
+    border-color: #D95105; /*same colour as button*/
   }
 
-  .join-button:hover {
-      background-color: #fafafa;
-      color: #454b1b;
-  }  
-  #boo-ghost{
-    height: 90%;
-  }
-  .popup{
-    height: 90%;
-  }
 }  
     
 /*Larger devices (1024px and up)*/
 @media screen and (min-width: 1024px) {
   main {
-    margin-top: 88px;
+    margin-top: 82px;
   }  
   #menu {
-    font-size: 110%;
+    font-size: 100%;
   }
   #menu > li {
     padding-left: 3rem;
@@ -582,7 +481,6 @@ flex: 1 /* Adjusts the image to cover the container */
   .form-input {
     flex: 0 1 48%; /* Make each input take up 48% width on larger screens */
   }
-
 } 
 
 /*Larger devices (1440 and up)*/
@@ -591,7 +489,7 @@ flex: 1 /* Adjusts the image to cover the container */
     margin-top: 86px;
   } 
   #menu {
-    font-size: 120%;
+    font-size: 110%;
   }
   #menu > li {
     padding-left: 4rem;
@@ -612,7 +510,7 @@ flex: 1 /* Adjusts the image to cover the container */
     margin-top: 98px;
   } 
   #menu {
-    font-size: 130%;
+    font-size: 120%;
   }
   #menu > li {
     padding-left: 5rem;
@@ -623,6 +521,6 @@ flex: 1 /* Adjusts the image to cover the container */
   }
 
   h1, h2, h3, h4, p {
-      font-size: 150%;
+      font-size: 140%;
   }
 }
