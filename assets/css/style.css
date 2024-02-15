@@ -145,7 +145,7 @@ nav {
 /*main*/
 /* main section takes up all extra space and pushes the footer down*/ 
 main {
-  background-color: whitesmoke;
+  background-color: white;
   flex: 1 0 auto;
   margin-top: 37px;
   display: flex;
