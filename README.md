@@ -1,6 +1,6 @@
 # CC Ghost Tours
 
-This is a visual online presence for Cork City ghost tour. It is designed to engage potential customers.
+This is a visual online presence for Cork City ghost tour. This website will inform the viewer of the 
 The target audience would be individual and families interested in a cultural and fun haunted tour of 18th century Cork city. Families from the area and also families visiting Cork as tourists, seeking family-friendly activities that provide cultural and historical insights.
 CC Ghost Tour will provide information on the type of ghost tours on offer, who will provide the tours, where it will take place and how to get in contact to book a tour. 
 
@@ -48,18 +48,13 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- __Book Page__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
+  -This page 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Book](https://andrewodwyer.github.io/Cork-City-Ghost-Tours/book.html)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -67,7 +62,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- I'd like to introduce a hover page. It will display after clicking the form submit button, to indicate the form was sent successfully.
+I thought i could use an anchor element for to the submit button to have a ghost picture pop up. However, I was not able to do this on html and css alone. This is an early idea.
+
+![hover page idea](documentation/images/hover page.png)
 
 ## Testing 
 
@@ -80,12 +78,30 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+### Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C Validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrewodwyer.github.io%2FCork-City-Ghost-Tours%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) Validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrewodwyer.github.io%2FCork-City-Ghost-Tours%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Accessibility
+  - The colour and font used make it very easy to read the text while still pleasing to the eye.
+  - I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
+![lighthouse score](documentation/images/lighthouse-score.png)
+
+#### Browser Testing
+
+The site has been tested on the following browsers: Chrome, Safari, firefox & Edge. The layout and functionality was consistent throughout the testing. links, navigation and form submit all work as intended.
+
+#### Manual testing
+
+Actions and results. 
+On click, CC Ghost Tour text/logo brings you to the home page.
+Navbar buttons: when clicked, they take you to different sections or pages. 
+Book/submit button: when clicked, it will show the code institute form submitted
+Name, email, phone, date & your message inputs are all required on the form in booking page: If not filled out correctly, it prompt user to do so before allowing them to submit the form. 
+Social link icons (X, instagram, facebook, you-tube): when clicked, opens pages for those particular social networks.
+All work correctly.
 
 ### Unfixed Bugs
 
@@ -110,13 +126,24 @@ In the newly opened pages, click on “view deployment”
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Code-institute:
+The navigation bar and footer originally code was originally sourced from the Love Running Project at Code Institute. The form on the booking Page was also inspired by the Love Running project. However, none of these remain in their original form. Additional code was added to css and html.
+W3schools: 
+I used w3schools to plan the button and button:hover css layout & colour.
+[button css] (https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover)
+Semantic elements like section, div etc
+[Semantic](https://www.w3schools.com/html/html5_semantic_elements.asp)
+HubSpot:
+[Tutorial on Git & Github] (https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+Stackoverflow:
+I got a better understanding of flexbox from stackoverflow.
+[setting distance in flex](https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items)
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
 
 ### Content 
 
-- The text for the Home page was written by the developer
+- The text for the Home page was written by the developer, Andrew O'Dwyer.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Favicon: from icons8.com https://icons8.com/icons/set/favicon-ghost I was able to get a stock ghost icon and change the colours to suit my colour palette.
 
@@ -125,9 +152,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The images used on the home page are AI generated in bing, powered by chatgpt Dall-e. https://www.bing.com/images/create/?ref=hn
 - The 18th century map used for the booking page was taken from https://www.linkedin.com/pulse/corporation-cork-city-ireland-agreed-make-provision-scheme-holohan
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- These images were then resized using https://imageresizer.com/
 
 
 
