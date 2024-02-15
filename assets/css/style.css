@@ -38,15 +38,16 @@ h1 {
   color: whitesmoke;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Roboto 100', sans-serif;
   letter-spacing: 1px;
-  color: #252525;
+  color: whitesmoke;
 }
 
-h4 {
+h3, h4 {
   font-family: 'Roboto 100', sans-serif;
   letter-spacing: 1px;
+  
 }
 
 .uppercase {
@@ -343,7 +344,7 @@ flex: 1 /* Adjusts the image to cover the container */
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 150%;
     padding: 30%;
     color: #3a3a3a
 }
@@ -360,7 +361,7 @@ flex: 1 /* Adjusts the image to cover the container */
   color: #064159;
   text-align: center;
   letter-spacing: .2em;
-  font-size: 90%;
+  font-size: 80%;
   margin: 15px 0 5px 0;
 }
 
