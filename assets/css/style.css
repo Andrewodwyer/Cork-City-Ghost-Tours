@@ -356,6 +356,14 @@ flex: 1 /* Adjusts the image to cover the container */
   font-size: 80%;
 }
 
+.address {
+  color: #064159;
+  text-align: center;
+  letter-spacing: .2em;
+  font-size: 90%;
+  margin: 15px 0 5px 0;
+}
+
 /*booking page*/
 
 #contact-background {
@@ -537,11 +545,6 @@ flex: 1 /* Adjusts the image to cover the container */
       top: 150px;*/
   }
 
-/* make the first 4 form inputs flex*/
-  .form-input {
-    flex: 0 1 48%; /* Make each input take up 48% width on larger screens */
-  }
-
   .text-input:hover {
       border-color: #f16c6b;
   }
@@ -572,6 +575,10 @@ flex: 1 /* Adjusts the image to cover the container */
 
   h1, h2, h3, h4 {
     font-size: 120%;
+  }
+  /* make the first 4 form inputs flex*/
+  .form-input {
+    flex: 0 1 48%; /* Make each input take up 48% width on larger screens */
   }
 
 } 
