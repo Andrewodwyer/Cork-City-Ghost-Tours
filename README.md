@@ -12,7 +12,7 @@ __Wireframe and Prototype__
 
 The tool Figma was used for the Wireframe and Prototype. You can view my [figma page here](https://www.figma.com/file/wqDQe6D5A4Dp42Iwlw0dXI/PROJECT-1-CORK-CITY-GHOST-TOURS?type=design&node-id=0-1&mode=design&t=72VgxDbLXxjmPx43-0)
 
-![Figma Wireframe](documentation/images/Figma Wireframe.png)
+![Figma Wireframe](documentation/images/Figma-Wireframe.png)
 
 __Responsive Design__
 
