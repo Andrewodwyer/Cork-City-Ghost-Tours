@@ -25,22 +25,22 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing page](documentation/images/main page.png)
+![Landing page](documentation/images/main-page.png)
 
 - __Tour Description__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Tour Description](documentation/images/Tour Description.png)
-![Route on 18th century map](documentation/images/Route on 18th century map.png)
+![Tour Description](documentation/images/Tour-Description.png)
+![Route on 18th century map](documentation/images/Route-on-18th-century-map.png)
 
 - __Call to Action__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Call to Action](documentation/images/Get in Touch section.png)
+![Call to Action](documentation/images/Get-in-Touch-section.png)
 
 - __The Footer__ 
 
@@ -61,7 +61,7 @@ In this section, you should go over the different parts of your project, and des
 - I'd like to introduce a hover page. It will display after clicking the form submit button, to indicate the form was sent successfully.
 I thought i could use an anchor element for to the submit button to have a ghost picture pop up. However, I was not able to do this on html and css alone. This is an early idea.
 
-![hover page idea](documentation/images/hover page.png)
+![hover page idea](documentation/images/hover-page.png)
 
 ## Testing 
 
