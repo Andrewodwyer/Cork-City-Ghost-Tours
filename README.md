@@ -68,23 +68,27 @@ In this section, you should go over the different parts of your project, and des
 
 - __Tour Description__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The tour description section will allow the user to see that this is a fun, entertaining tour, presented by knowledgeable, comedic guides that has a strong Cork manner.
+  - The "meet your guides" section will give a better insight into two of the companies guides.
 
 ![Tour Description](documentation/images/Tour-Description.png)
+
+  - The Route section, will emphasis that this is an 18th century period tour. Giving the user a visual idea of the layout of the city
+
 ![Route on 18th century map](documentation/images/Route-on-18th-century-map.png)
 
 - __Call to Action__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+The last section on the main page is the "Get in Touch" or call to action.
+It gives a prompt to "Get in Touch" and contains a "Book Now" button.
+As described earlier in the mapping paragraph, this button empowers the user as it is moving them forward.
 
 ![Call to Action](documentation/images/Get-in-Touch-section.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for CC Ghost Tour. The links will open to a new tab, allowing easy navigation for the user. 
+  - These well know icons/logos are familiar to the user and encourages them to see more on those platforms.
 
 ![Footer](documentation/images/footer.png)
 
@@ -100,20 +104,6 @@ In this section, you should go over the different parts of your project, and des
 ### Features Left to Implement
 
 - I'd like to introduce a hover page. It will display after clicking the form submit button, to indicate the form was sent successfully.
-I thought i could use an anchor element for to the submit button to have a ghost picture pop up. However, I was not able to do this on html and css alone. This is an early idea.
-
-![hover page idea](documentation/images/hover-page.png)
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Testing 
 
@@ -128,17 +118,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 #### Browser Testing
 
-The site has been tested on the following browsers: Chrome, Safari, firefox & Edge. The layout and functionality was consistent throughout the testing. links, navigation and form submit all work as intended.
+  -The site has been tested on the following browsers: Chrome, Safari, firefox & Edge. The layout and functionality was consistent throughout the testing. links, navigation and form submit all work as intended.
 
 #### Manual testing
 
-Actions and results. 
-On click, CC Ghost Tour text/logo brings you to the home page.
-Navbar buttons: when clicked, they take you to different sections or pages. 
-Book/submit button: when clicked, it will show the code institute form submitted
-Name, email, phone, date & your message inputs are all required on the form in booking page: If not filled out correctly, it prompt user to do so before allowing them to submit the form. 
-Social link icons (X, instagram, facebook, you-tube): when clicked, opens pages for those particular social networks.
-All work correctly.
+  Actions and results. 
+  -On click, CC Ghost Tour text/logo brings you to the home page.
+  -Navbar buttons: when clicked, they take you to different sections or pages. 
+  -Book/submit button: when clicked, it will show the code institute form submitted
+  -Name, email, phone, date & your message inputs are all required on the form in booking page: If not filled out correctly, it prompt user to do so before allowing them to submit the form. 
+  -Social link icons (X, instagram, facebook, you-tube): when clicked, opens pages for those particular social networks.
+  All work correctly.
 
 ### Unfixed Bugs
 
@@ -190,8 +180,3 @@ I got a better understanding of flexbox from stackoverflow.
 - The images used on the home page are AI generated in bing, powered by chatgpt Dall-e. https://www.bing.com/images/create/?ref=hn
 - The 18th century map used for the booking page was taken from https://www.linkedin.com/pulse/corporation-cork-city-ireland-agreed-make-provision-scheme-holohan
 - These images were then resized using https://imageresizer.com/
-
-
-
-[def]: assets/images/ghost_tour_cork_skeleton.jpeg
-[def2]: assets/images/ghost_tour_cork_skeleton.jpeg
