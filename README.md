@@ -7,12 +7,23 @@ CC Ghost Tour will provide information on the type of ghost tours on offer, who 
 ![Image showing screenshots on different size screens](documentation/images/am-i-responsive.png)
 
 ## UX
--__Colour Choice__
-  -The colour palette is made up of blues, greens and complemented with orange. A split complementary scheme, in desaturated tones to give a relaxed feeling that is pleasing to the eye.
-  -The use of white text on the darker values/tones and dark grey text on lighter values, means the text is easy is read.  
 
--__Wireframe and Prototype__
-  -
+__Wireframe and Prototype__
+
+The tool Figma was used for the Wireframe and Prototype. You can view my [figma page here](https://www.figma.com/file/wqDQe6D5A4Dp42Iwlw0dXI/PROJECT-1-CORK-CITY-GHOST-TOURS?type=design&node-id=0-1&mode=design&t=72VgxDbLXxjmPx43-0)
+
+![Figma Wireframe](documentation/images/Figma Wireframe.png)
+
+__Responsive Design__
+
+-This website is a mobile-first design. At the planning stage, emphasis was put into the design of a mobile website first, followed by up-scaling for larger devices.
+-To achieve this, I used a component-based approach. The Hero, Tour and Guide sections are cards. The cards contain an image on the left and text on the right. These cards or blocks of content can float horizontally on desktops or vertically with flex box on a mobile. Components are considered good UI design as they can be used again on other sections of the project.
+
+__Colour Choice__
+
+-The colour palette is made up of blues, greens and complemented with orange. A split complementary scheme, in desaturated tones to give a relaxed feeling that is pleasing to the eye.
+-The use of white text on the darker values/tones and dark grey text on lighter values, means the text is easy is read.  
+
 
 ## Features 
 
@@ -30,7 +41,10 @@ In this section, you should go over the different parts of your project, and des
 
 -__button__
 
-  - The button was designed to stand out. The image below shows the button without hover on the left and with hover on the right. The gradient changes from light orange down to dark orange down. This subtle change is a visual cue that in keeping with the use of gradients throughout the website.
+  - The button was designed to stand out, to be easily visible from the rest of the page.
+  - The orange colour is in contrast as it is a complementary colour to the blue and green on the page. 
+  - The image below shows the button without hover on the left and with hover on the right. As you can see, the gradient changes direction and the buttons sides expand. 
+  - This subtle change is a visual cue that is in keeping with the use of gradients throughout the website.
 
 ![button](documentation/images/btn_and_btn.hover.png)
 
@@ -63,10 +77,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](documentation/images/footer.png)
 
-
 - __Book Page__
 
-  - This page will allow the user to send contact details in order to make a booking. This form asks for 1. First Name 2. Last name 3. Email Address 4. Phone number 5. Booking Date & 6. Your message. After filling in all the required forms, the user will be prompted to submit the form with the “Send” button.
+  - This page will allow the user to send contact details in order to make a booking. This form asks for the following: 
+  - 1. First Name 2. Last name 3. Email Address 4. Phone number 5. Booking Date & 6. Your message. 
+  - All fields are required and a valid email address (including @,) needs to be entered.
+  - After filling in all the required forms, the user will be prompted to submit the form with the “Send” button.
 
 ![Book](documentation/images/Form.png)
 
