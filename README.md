@@ -32,7 +32,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The button was designed to stand out. The image below shows the button without hover on the left and with hover on the right. The gradient changes from light orange down to dark orange down. This subtle change is a visual cue that in keeping with the use of gradients throughout the website.
 
-  [button](documentation/images/btn_and_btn.hover.png)
+![button](documentation/images/btn_and_btn.hover.png)
 
 - __The landing page image__
 
