@@ -241,8 +241,8 @@ main {
   margin: 5vw;
 }  
 
- /* Container for contact section */
-.contact-section {
+ /* Container for get in touch section on main page */
+.get-in-touch {
   display: flex;
   justify-content: space-between;
   align-items: center;
