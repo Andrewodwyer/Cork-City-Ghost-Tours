@@ -6,6 +6,14 @@ CC Ghost Tour will provide information on the type of ghost tours on offer, who 
 
 ![Image showing screenshots on different size screens](documentation/images/am-i-responsive.png)
 
+## UX
+-__Colour Choice__
+  -The colour palette is made up of blues, greens and complemented with orange. A split complementary scheme, in desaturated tones to give a relaxed feeling that is pleasing to the eye.
+  -The use of white text on the darker values/tones and dark grey text on lighter values, means the text is easy is read.  
+
+-__Wireframe and Prototype__
+  -
+
 ## Features 
 
 
@@ -19,6 +27,12 @@ In this section, you should go over the different parts of your project, and des
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav bar](documentation/images/header.png)
+
+-__button__
+
+  - The button was designed to stand out. The image below shows the button without hover on the left and with hover on the right. The gradient changes from light orange down to dark orange down. This subtle change is a visual cue that in keeping with the use of gradients throughout the website.
+
+  [button](documentation/images/btn_and_btn.hover.png)
 
 - __The landing page image__
 
@@ -52,7 +66,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Book Page__
 
-  - This page will allow the user to send contact details in order to make a booking. This form asks for 1) First Name 2) Last name 3) Email Address 4) Phone number 5) Booking Date & 6) Your message. After filling in all the required forms, the user will be prompted to submit the form with the “Send” button.
+  - This page will allow the user to send contact details in order to make a booking. This form asks for 1. First Name 2. Last name 3. Email Address 4. Phone number 5. Booking Date & 6. Your message. After filling in all the required forms, the user will be prompted to submit the form with the “Send” button.
 
 ![Book](documentation/images/Form.png)
 
