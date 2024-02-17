@@ -2,13 +2,13 @@
 
 This is a visual online presence for Cork City Ghost Tour.
 
-The target audience for CC ghost tour would primarily be families. Both from the area and families visiting Cork as tourists, seeking family-friendly activities that provide cultural and historical insights. The aim of the tour is to strike a balance of spooky experience, with a 18th century Cork charm and an uplifting fun experience for the whole family. 
+The target audience for CC ghost tour would primarily be families. Both from the area and families visiting Cork as tourists, seeking family-friendly activities that provide cultural and historical insights. The aim of the tour is to strike a balance of spooky experience, with an 18th century Cork charm. Resulting in an uplifting fun event for the whole family. 
 
-CC Ghost Tour will provide information on the type of ghost tours on offer, who will provide the tours, where it will take place and how to get in contact to book a tour. 
+CC Ghost Tour website will provide information on the type of ghost tours on offer, who will provide the tours, where it will take place and how to get in contact to book a tour. 
 
 ![Image showing screenshots on different size screens](documentation/images/am-i-responsive.png)
 
-## UX
+## UX & UI Design
 
 ### Wireframe and Prototype
 
@@ -169,8 +169,8 @@ There are no unfixed bus.
 
 ## Credits 
 
--Code-institute:
-  -The navigation bar and footer originally code was originally sourced from the Love Running Project at Code Institute. The form on the booking Page was also inspired by the Love Running project. However, none of these remain in their original form. Additional code was added to css and html.
+- Code-institute:
+  - The navigation bar and footer originally code was originally sourced from the Love Running Project at Code Institute. The form on the booking Page was also inspired by the Love Running project. However, none of these remain in their original form. Additional code was added to css and html.
 - Montor Support: Spencer Barriball
 - Tutor Support: Tutors at Code institute
 - Don Norman's book "The design of everyday things"
