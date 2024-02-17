@@ -184,7 +184,8 @@ There are no unfixed bus.
 - Stackoverflow:
   - I got a better understanding of flexbox from stackoverflow.
 [setting distance in flex](https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items)
-
+  - Setting alt text in background images in CSS
+[using title instead of alt](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)  
 ### Content 
 
 - The text for the Home page was written by the developer, Andrew O'Dwyer.
