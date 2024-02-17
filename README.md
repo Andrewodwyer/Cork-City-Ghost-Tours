@@ -17,22 +17,22 @@ The tool Figma was used for the Wireframe and Prototype. You can view my [figma 
 
 ### Responsive Design
 
--This website is a mobile-first design. At the planning stage, emphasis was put into the design of a mobile website, followed by up-scaling for larger devices.
--To achieve this, I used a component-based approach. The Hero, Tour and Guide sections are cards. The cards contain an image on the left and text on the right. These cards or blocks of content can float horizontally on desktops or vertically with flex box on a mobile. Components are considered good UI design as they can be used again on other sections of the project.
+- This website is a mobile-first design. At the planning stage, emphasis was put into the design of a mobile website, followed by up-scaling for larger devices.
+- To achieve this, I used a component-based approach. The Hero, Tour and Guide sections are cards. The cards contain an image on the left and text on the right. These cards or blocks of content can float horizontally on desktops or vertically with flex box on a mobile. Components are considered good UI design as they can be used again on other sections of the project.
 
 ### Mapping
 
--This is a two page design layout. On the home page, all the information regarding the tour is available and broken up in bite size pieces, so the user wouldn’t feel overwhelmed. This common scroll design will be intuitive to the user and will make them feel at ease. 
--At the end of the page after gathering the information, the user sees a call to action, a “book now” button. At this stage, the user would have all the information they needed to know if they’ll like to book. 
--The “book” page was separated, so the user would feel that they’re taking the next step, feeling empowered in their decision. 
--This "book" page contains a centred form. The form itself was designed to be responsive. On mobile devices the input fields are vertically places, one over another. On larger devices, a media query was added. The “First name” and “Last name” inputs are placed side by side. As are the “Email address & Phone number” input fields. As larger devices are landscape in view, this design utilises the space more effectively.
+- This is a two page design layout. On the home page, all the information regarding the tour is available and broken up in bite size pieces, so the user wouldn’t feel overwhelmed. This common scroll design will be intuitive to the user and will make them feel at ease. 
+- At the end of the page after gathering the information, the user sees a call to action, a “book now” button. At this stage, the user would have all the information they needed to know if they’ll like to book. 
+- The “book” page was separated, so the user would feel that they’re taking the next step, feeling empowered in their decision. 
+- This "book" page contains a centred form. The form itself was designed to be responsive. On mobile devices the input fields are vertically places, one over another. On larger devices, a media query was added. The “First name” and “Last name” inputs are placed side by side. As are the “Email address & Phone number” input fields. As larger devices are landscape in view, this design utilises the space more effectively.
 
 ### Colours & Font
 
--The colour palette is made up of blues, greens and complemented with orange. A split complementary scheme, in desaturated tones to give a relaxed feeling that is pleasing to the eye.
--The use of white text on the darker values/tones and dark grey text on lighter values, means the text is easy is read.   
--The Font used is Roboto and a websafe sans-serif font.
--A Dark grey colour (#4b4b4b) was used on the majority of the text. The hero section uses an off white colour (whitesmoke) to help it stand out from the other text. By doing this, the user will see straight away the most important information.
+- The colour palette is made up of blues, greens and complemented with orange. A split complementary scheme, in desaturated tones to give a relaxed feeling that is pleasing to the eye.
+- The use of white text on the darker values/tones and dark grey text on lighter values, means the text is easy is read.   
+- The Font used is Roboto and a websafe sans-serif font.
+- A Dark grey colour (#4b4b4b) was used on the majority of the text. The hero section uses an off white colour (whitesmoke) to help it stand out from the other text. By doing this, the user will see straight away the most important information.
 
 ## Features 
 
@@ -115,23 +115,23 @@ This page will allow the user to send contact details in order to make a booking
 
 ### Browser Testing
 
--The site has been tested on the following browsers: Chrome, Safari, firefox & Edge. The layout and functionality was consistent throughout the testing. links, navigation and form submit all work as intended.
+- The site has been tested on the following browsers: Chrome, Safari, firefox & Edge. The layout and functionality was consistent throughout the testing. links, navigation and form submit all work as intended.
 
 ### Manual testing
 
 Actions and results. 
--On click, CC Ghost Tour text/logo brings you to the home page.
--Navbar buttons: when clicked, they take you to different sections or pages. 
--Book/submit button: when clicked, it will show the code institute form submitted
--Name, email, phone, date & your message inputs are all required on the form in booking page: If not filled out correctly, it prompt user to do so before allowing them to submit the form. 
--Social link icons (X, instagram, facebook, you-tube): when clicked, opens pages for those particular social networks.
+- On click, CC Ghost Tour text/logo brings you to the home page.
+- Navbar buttons: when clicked, they take you to different sections or pages. 
+- Book/submit button: when clicked, it will show the code institute form submitted
+- Name, email, phone, date & your message inputs are all required on the form in booking page: If not filled out correctly, it prompt user to do so before allowing them to submit the form. 
+- Social link icons (X, instagram, facebook, you-tube): when clicked, opens pages for those particular social networks.
 All work correctly.
 
 ### Fixed Bugs
 
--Input field height in contact section. I wanted one row input field for the name and email boxes but I wanted 4 row for the message. This was done by adding  textarea instead of input element. textarea is not self closing and this took me a few tries to work out. Secondly I wanted each of the first 4 fields to be the same height. The auto height I felt was too small so I added a class to make the input fields 25px high and another css rule to make the textarea field 150px high. 
--Center Form. I was having trouble making the form in the contact page centred on the page. The resolve was to add margin:auto; to the booking-form and also padding:5% to the outer div class=“transparent-colour”. The padding gave breathing space around the booking form.
--I wanted to stack the sections and divs on mobile, so the images showed first and then the text box. This was for devices with screen width less than 769, so the text could be easy read. 
+- Input field height in contact section. I wanted one row input field for the name and email boxes but I wanted 4 row for the message. This was done by adding  textarea instead of input element. textarea is not self closing and this took me a few tries to work out. Secondly I wanted each of the first 4 fields to be the same height. The auto height I felt was too small so I added a class to make the input fields 25px high and another css rule to make the textarea field 150px high. 
+- Center Form. I was having trouble making the form in the contact page centred on the page. The resolve was to add margin:auto; to the booking-form and also padding:5% to the outer div class=“transparent-colour”. The padding gave breathing space around the booking form.
+- I wanted to stack the sections and divs on mobile, so the images showed first and then the text box. This was for devices with screen width less than 769, so the text could be easy read. 
 When the screen went over 769px, the divs would be placed side by side in the section (container/card). The image div on left and text div on right. This was the design for the hero section and the “our tours” section. 
 The section that followed, named “meet your guides” has two “our-guides” sections. These are stacked like the first two for mobile. However on larger screens, they would move to be in a row. The “our-guide” sections would be side by side.
 This was solved using flex-direction:column in the “guide-section” section and flex-direction:row as a media query in the “our-guides” div.
