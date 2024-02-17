@@ -1,6 +1,7 @@
 # CC Ghost Tours
 
 This is a visual online presence for Cork City Ghost Tour.
+
 The target audience for CC ghost tour would primarily be families. Both from the area and families visiting Cork as tourists, seeking family-friendly activities that provide cultural and historical insights. The aim of the tour is to strike a balance of spooky experience, with a 18th century Cork charm and an uplifting fun experience for the whole family. 
 
 CC Ghost Tour will provide information on the type of ghost tours on offer, who will provide the tours, where it will take place and how to get in contact to book a tour. 
@@ -24,7 +25,7 @@ The tool Figma was used for the Wireframe and Prototype. You can view my [figma 
 
 - This is a two page design layout. On the home page, all the information regarding the tour is available and broken up in bite size pieces, so the user wouldn’t feel overwhelmed. This common scroll design will be intuitive to the user and will make them feel at ease. 
 - At the end of the page after gathering the information, the user sees a call to action, a “book now” button. At this stage, the user would have all the information they needed to know if they’ll like to book. 
-- The “book” page was separated, so the user would feel that they’re taking the next step, feeling empowered in their decision. 
+- The “book” page was separated, so the user would feel that they’re taking the next step. Feeling empowered in their decision. 
 - This "book" page contains a centred form. The form itself was designed to be responsive. On mobile devices the input fields are vertically places, one over another. On larger devices, a media query was added. The “First name” and “Last name” inputs are placed side by side. As are the “Email address & Phone number” input fields. As larger devices are landscape in view, this design utilises the space more effectively.
 
 ### Colours & Font
@@ -56,28 +57,33 @@ The tool Figma was used for the Wireframe and Prototype. You can view my [figma 
 
 ### The landing page image
 
-- The landing page consists of an appealing comic book style image of two skeletons looking over a cathedral at night. Next to the image is a h2 text block giving the user the businesses unique selling point. The image will appeal to the younger member of the family while the text gives the parents (guardians) the sales pitch. 
+- The landing page consists of an appealing comic book style image of two skeletons looking over a cathedral at night. Next to the image is a h2 text block, that provides the user with the businesses unique selling point. The image will appeal to the younger member of the family while the text gives the parents (guardians) the sales pitch. 
 
 ![Landing page](documentation/images/main-page.png)
 
+- A colour gradient is used in the first section and this gradient is mirrored further down the page in the map section. The mirrored gradients complement each other and frame the tour cards between.
 
 ### Tour Description
 
 - The tour description section will allow the user to see that this is a fun, entertaining tour, presented by knowledgeable, comedic guides that has a strong Cork manner.
 - The "meet your guides" section will give a better insight into two of the companies guides.
 - This section has a transition when moving from mobile to larger screens. The two cards turn horizontal on larger screens and move in from the left.
+
 ![Tour Description](documentation/images/Tour-Description.png)
+
 - These sections are cards (image and text containers) with a drop shadow. The drop shadow effect gives a dynamic feel to the site.
+
 ![cards](documentation/images/flex-display-mobile-on-left.png)
 
 - The Route section, will emphasis that this is an 18th century period tour. Giving the user a visual idea of the layout of the city
+
 ![Route on 18th century map](documentation/images/Route-on-18th-century-map.png)
 
 ### Call to Action
 
 The last section on the main page is the "Get in Touch" or call to action.
 It gives a prompt to "Get in Touch" and contains a "Book Now" button.
-As described earlier in the mapping paragraph, this button empowers the user as it is moving them forward.
+As described earlier in the mapping paragraph, this button empowers the user. Moving them forward.
 
 ![Call to Action](documentation/images/Get-in-Touch-section.png)
 
@@ -95,6 +101,7 @@ This page will allow the user to send contact details in order to make a booking
 - This form asks for the following. First Name, Last name, Email Address, Phone number, Booking Date & Your message. 
 - All fields are required and a valid email address (including @,) needs to be entered.
 - After filling in all the required forms, the user will be prompted to submit the form with the “Send” button.
+- Behind the form is the map and a transparent green overlay.
 
 ![Book](documentation/images/Form.png)
 
@@ -111,6 +118,7 @@ This page will allow the user to send contact details in order to make a booking
 - Accessibility
   - The colour and font used make it very easy to read the text while still pleasing to the eye.
   - I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
+
 ![lighthouse score](documentation/images/lighthouse-score.png)
 
 ### Browser Testing
@@ -130,10 +138,10 @@ All work correctly.
 ### Fixed Bugs
 
 - Input field height in contact section. I wanted one row input field for the name and email boxes but I wanted 4 row for the message. This was done by adding  textarea instead of input element. textarea is not self closing and this took me a few tries to work out. Secondly I wanted each of the first 4 fields to be the same height. The auto height I felt was too small so I added a class to make the input fields 25px high and another css rule to make the textarea field 150px high. 
-- Center Form. I was having trouble making the form in the contact page centred on the page. The resolve was to add margin:auto; to the booking-form and also padding:5% to the outer div class=“transparent-colour”. The padding gave breathing space around the booking form.
-- I wanted to stack the sections and divs on mobile, so the images showed first and then the text box. This was for devices with screen width less than 769, so the text could be easy read. 
+- Centre Form. I was having trouble making the form in the contact page centred on the page. The resolve was to add margin:auto; to the booking-form and also padding:5% to the outer div class=“transparent-colour”. The padding gave breathing space around the booking form.
+- I wanted to stack the sections and divs on mobile, so the images showed first and then the text box. This was for devices with screen width less than 769, so the text could be easily read. 
 When the screen went over 769px, the divs would be placed side by side in the section (container/card). The image div on left and text div on right. This was the design for the hero section and the “our tours” section. 
-The section that followed, named “meet your guides” has two “our-guides” sections. These are stacked like the first two for mobile. However on larger screens, they would move to be in a row. The “our-guide” sections would be side by side.
+The div that followed, named “meet your guides” has two “our-guides” divs. These are stacked like the first two for mobile. However on larger screens, they would move to be in a row. The “our-guide” divs would be side by side.
 This was solved using flex-direction:column in the “guide-section” section and flex-direction:row as a media query in the “our-guides” div.
 Two containers (both having a class=“our-guides”) with an attribute of flex-direction: row. 
 I added a class=“image-and-text” to these divs containing the image and text cards. The outer “meet your guides” container had a flex property of column, so the “our-guides” section showed side by side.
@@ -144,37 +152,37 @@ There are no unfixed bus.
 
 ## Deployment
 
-Log in to GitHub and select CC ghost tour repository.
-From this repository, navigate to "Settings" (This is at the top of the page).
-when in settings, navigate to pages from the left-hand menu.
-In source select “Deploy from a Branch” in the drop down menu.
-In branch select “main”. The folder next to it will be “/(root)”
-At this point you click “Save”
-Your site is now being deployed.
-After several minutes the site was deployed.
-A link to the deployed site is at the top of this page, click “Visit site”
-Alternatively, To get access to the deployed site, click on the “Code” tab of the repository.
-On the right-hand side under “environments” click on “GitHub-pages”
-In the newly opened pages, click on “view deployment”
+- Log in to GitHub and select CC ghost tour repository.
+- From this repository, navigate to "Settings" (This is at the top of the page).
+- when in settings, navigate to pages from the left-hand menu.
+- In source select “Deploy from a Branch” in the drop down menu.
+- In branch select “main”. The folder next to it will be “/(root)”
+- At this point you click “Save”
+- Your site is now being deployed.
+- After several minutes the site was deployed.
+- A link to the deployed site is at the top of this page, click “Visit site”
+- Alternatively, To get access to the deployed site, click on the “Code” tab of the repository.
+- On the right-hand side under “environments” click on “GitHub-pages”
+- In the newly opened pages, click on “view deployment”
 [live site](https://andrewodwyer.github.io/Cork-City-Ghost-Tours/)
 
 
 ## Credits 
 
-Code-institute:
-The navigation bar and footer originally code was originally sourced from the Love Running Project at Code Institute. The form on the booking Page was also inspired by the Love Running project. However, none of these remain in their original form. Additional code was added to css and html.
-Montor Support: Spencer Barriball
-Tutor Support: Tutors at Code institute
-Don Norman's book "The design of everyday things"
-W3schools: 
-I used w3schools to plan the button and button:hover css layout & colour.
-[button css] (https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover)
-Semantic elements like section, div etc
+-Code-institute:
+  -The navigation bar and footer originally code was originally sourced from the Love Running Project at Code Institute. The form on the booking Page was also inspired by the Love Running project. However, none of these remain in their original form. Additional code was added to css and html.
+- Montor Support: Spencer Barriball
+- Tutor Support: Tutors at Code institute
+- Don Norman's book "The design of everyday things"
+- W3schools: 
+  - I used w3schools to plan the button and button:hover css layout & colour.
+[button css](https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover)
+  - Semantic elements like section, div etc
 [Semantic](https://www.w3schools.com/html/html5_semantic_elements.asp)
-HubSpot:
-[Tutorial on Git & Github] (https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-Stackoverflow:
-I got a better understanding of flexbox from stackoverflow.
+- HubSpot:
+[Tutorial on Git & Github](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+- Stackoverflow:
+  - I got a better understanding of flexbox from stackoverflow.
 [setting distance in flex](https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items)
 
 ### Content 
