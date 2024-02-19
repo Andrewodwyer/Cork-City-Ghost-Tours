@@ -1,4 +1,4 @@
-# CC Ghost Tours
+# CC Ghost Tour
 
 This is a visual online presence for Cork City Ghost Tour.
 
