@@ -117,7 +117,8 @@ This page will allow the user to send contact details in order to make a booking
   - No errors were found when passing through the official [(Jigsaw) Validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrewodwyer.github.io%2FCork-City-Ghost-Tours%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
   - The colour and font used make it very easy to read the text while still pleasing to the eye.
-  - I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
+  - I used Lighthouse in DevTools to confirm that every page scores well.
+  - The left image in the picture below is the lighthouse score given for desktop. The right image is the score given for mobile.
 
 ![lighthouse score](documentation/images/lighthouse-score.png)
 
